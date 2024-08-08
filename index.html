@@ -8,11 +8,11 @@
 <body>
     <form action="" method="">
         <p>Digite seu nome:</p>
-        <input type="texto" name="nome" placeholder=" Ex: Carol Ferndinanda">
+        <input type="texto" name="nome" placeholder=" Ex: Carol Ferndinanda" required>
         <p>Digite seu email </p>
-        <input type="email" name="email" placeholder=" Ex: carol.ferndinanda@gmail.com" value="@escola.pr.gov.br">
+        <input type="email" name="email" placeholder=" Ex: carol.ferndinanda@gmail.com" value="@escola.pr.gov.br" required>
         <p> Digite seu numero</p>
-        <input type="number" name="phone" placeholder="(xx) xx xxxxx-xxxx">
+        <input type="number" name="phone" placeholder="(xx) xx xxxxx-xxxx" required>
         <p>Voce é herdeiro(a)</p>
         <input type="radio" name="work" value="Sim"> Com certeza 
         <input type="radio" name="work" value="Não"> Sem certeza
@@ -23,12 +23,15 @@
             <option value="3">Rio de Janeiro</option>
             <option value="4">Paraná</option>
         </select>
-        
+        <p>Quais são os seus objetivos?</p>
 <textarea name="Quais são seus objetivos?" id=""></textarea>
 
 
 
         <input type="checkbox" name="novidades" checked> Aceito receber novidades por e-mail da empresa
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
     </form>
 </body>
 </html>
